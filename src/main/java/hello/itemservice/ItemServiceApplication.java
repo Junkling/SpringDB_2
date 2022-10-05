@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Profile;
 /**
  * 추가 내용
  */
-@Import(MemoryConfig.class)
+@Import(JdbcTemplateV1Config.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
 
